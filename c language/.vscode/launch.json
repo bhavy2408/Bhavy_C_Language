@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "d:/BhavyWorks/Bhavy_C_Language/c language/Arithmatic Opreator",
+      "program": "d:/BhavyWorks/Bhavy_C_Language/c language/Arithmatic Opreator/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

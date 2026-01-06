@@ -8,10 +8,14 @@ int main()
     printf("Average=%d\n\n",(a+b+c)/3);
 
     //swap two numbers using arithmetic operators
-    d=d+e; //d=8
-    e=d-e; //e=5
-    d=d-e; //d=3
-    
+    d=d+e; 
+    e=d-e;
+    d=d-e;
+
+    printf("Before swapping\n");
+    printf("d=3\n");
+    printf("e=5\n");
+
     printf("after Swaping\n");
     printf("d=%d\n",d);
     printf("e=%d\n",e);
