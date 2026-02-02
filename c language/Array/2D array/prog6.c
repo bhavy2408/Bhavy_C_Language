@@ -1,4 +1,5 @@
-//Calculate sum of all elements in matrix
+//Add two matrices of same size
+
 #include<stdio.h>
 int main()
 {
@@ -6,6 +7,8 @@ int main()
     int n[10][10];
     int a,b;
     int sum[10][10];
+
+    printf("Enter Matrix data has Same size\n");
 
     printf("Enter rows=");
     scanf("%d",&a);
