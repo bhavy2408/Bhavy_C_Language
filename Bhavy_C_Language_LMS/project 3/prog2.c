@@ -2,23 +2,26 @@
 #include<stdio.h>
 int main()
 {
-    int sum,n,m=1;
+    int a, count=0,sum;
 
-    printf("Enter any number=");
-    scanf("%d",n);
+    printf("Enter Any Number=");
+    scanf("%d",&a);
 
-      if (n < 0) {
-        n = -n;
+    if(a == 0)
+    {
+        count=1;
+    }else if(a < 0)
+    {
+        a=-a;
     }
 
-    do {
-        m++;      
-        n /= 10;    
-    } while (n != 0);
+    while(a > 0)
+    {
+        a=a/10;
+        count++;
+    }
 
-    printf("Number of digits: %d\n", m);
-
-    
+    printf("Total Number Of digit=%d",count);
     return 0;
 
 }
