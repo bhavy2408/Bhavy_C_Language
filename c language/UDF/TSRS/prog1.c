@@ -1,11 +1,11 @@
 //TSRS DEMO
 #include<stdio.h>
-char printfunc(char a[20])
+char* print(char name[20])
 {
-    return a;
+    return name;
 }
-int main()
+int main() 
 {
-    printf("name=%s",printfunc(bhavy));
-    return 0;
+    printf("name=%s" , print("bhavy"));
+    return 0;   
 }
